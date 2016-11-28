@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+.color-primary-0 { color: #C4BF9C }	/* Main Primary color */
+.color-primary-1 { color: #FFFDF3 }
+.color-primary-2 { color: #EAE6CE }
+.color-primary-3 { color: #A49D73 }
+.color-primary-4 { color: #807A4E }
+
+.color-complement-0 { color: #766E86 }	/* Main Complement color */
+.color-complement-1 { color: #C0BDC5 }
+.color-complement-2 { color: #958FA0 }
+.color-complement-3 { color: #5C5270 }
+.color-complement-4 { color: #433958 }
+
+body {
+  padding-top: 70px;
+  padding-bottom: 400px;  /* works for non mobile view */
+  background-color: #807A4E;
+  color: #C0BDC5;
+}
+
+/* Footer */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#footer-service, #footer-address, #footer-map {
+  line-height: 2;
+}
+#footer-service > span, #footer-address > span, #footer-map > span{
+  font-size: 1.3em;
+}
+#footer-address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding-bottom: 700px;
+  }
+}
